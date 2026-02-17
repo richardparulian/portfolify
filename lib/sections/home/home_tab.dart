@@ -25,33 +25,20 @@ class HomeTab extends StatelessWidget {
                 offset: const Offset(0, 0),
                 delay: const Duration(seconds: 1),
                 duration: const Duration(milliseconds: 800),
-                child: Image.asset(
-                  StaticUtils.blackWhitePhoto,
-                  height: size.width < 1200
-                      ? size.height * 0.75
-                      : size.height * 0.85,
-                ),
+                child: Image.asset(StaticUtils.blackWhitePhoto, height: size.width < 1200 ? size.height * 0.75 : size.height * 0.85),
               ),
             ),
           ),
           Container(
-            margin: EdgeInsets.fromLTRB(
-              AppDimensions.normalize(30),
-              AppDimensions.normalize(50),
-              0,
-              0,
-            ),
+            margin: EdgeInsets.fromLTRB(AppDimensions.normalize(30), AppDimensions.normalize(50), 0, 0),
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 Row(
                   mainAxisSize: MainAxisSize.min,
                   children: [
-                    Text(
-                      'WELCOME TO MY PORTFOLIO! ',
-                      style: AppText.b2!.copyWith(
-                        fontFamily: 'Montserrat',
-                      ),
+                    Text('WELCOME TO MY PORTFOLIO! ', 
+                      style: AppText.b2!.copyWith(fontFamily: 'Montserrat'),
                     ),
                     EntranceFader(
                       offset: const Offset(0, 0),
@@ -65,18 +52,14 @@ class HomeTab extends StatelessWidget {
                   ],
                 ),
                 Space.y1!,
-                Text(
-                  "Muhammad",
+                Text("Richard",
                   style: AppText.h1!.copyWith(
                     fontFamily: 'Montserrat',
                     fontWeight: FontWeight.w100,
                   ),
                 ),
-                Text(
-                  "Hamza",
-                  style: AppText.h1b!.copyWith(
-                    height: 1,
-                  ),
+                Text("Parulian",
+                  style: AppText.h1b!.copyWith(height: 1),
                 ),
                 EntranceFader(
                   offset: const Offset(-10, 0),
@@ -90,18 +73,15 @@ class HomeTab extends StatelessWidget {
                       ),
                       AnimatedTextKit(
                         animatedTexts: [
-                          TyperAnimatedText(
-                            ' Flutter Developer',
+                          TyperAnimatedText(' Flutter Developer',
                             speed: const Duration(milliseconds: 50),
                             textStyle: AppText.b1,
                           ),
-                          TyperAnimatedText(
-                            ' UI/UX Enthusiast',
+                          TyperAnimatedText(' UI/UX Enthusiast',
                             speed: const Duration(milliseconds: 50),
                             textStyle: AppText.b1,
                           ),
-                          TyperAnimatedText(
-                            ' A friend :)',
+                          TyperAnimatedText(' A friend :)', 
                             speed: const Duration(milliseconds: 50),
                             textStyle: AppText.b1,
                           ),

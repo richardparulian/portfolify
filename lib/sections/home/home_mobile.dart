@@ -53,18 +53,14 @@ class HomeMobile extends StatelessWidget {
                   ],
                 ),
                 Space.y!,
-                Text(
-                  "Muhammad",
+                Text("Richard",
                   style: AppText.h3!.copyWith(
                     fontFamily: 'Montserrat',
                     fontWeight: FontWeight.w100,
                   ),
                 ),
-                Text(
-                  "Hamza",
-                  style: AppText.h3b!.copyWith(
-                    height: 1,
-                  ),
+                Text("Parulian",
+                  style: AppText.h3b!.copyWith(height: 1),
                 ),
                 Space.y!,
                 Row(
@@ -75,18 +71,15 @@ class HomeMobile extends StatelessWidget {
                     ),
                     AnimatedTextKit(
                       animatedTexts: [
-                        TyperAnimatedText(
-                          ' Flutter Developer',
+                        TyperAnimatedText(' Flutter Developer',
                           speed: const Duration(milliseconds: 50),
                           textStyle: AppText.b1,
                         ),
-                        TyperAnimatedText(
-                          ' UI/UX Enthusiast',
+                        TyperAnimatedText(' UI/UX Enthusiast',
                           speed: const Duration(milliseconds: 50),
                           textStyle: AppText.b1,
                         ),
-                        TyperAnimatedText(
-                          ' A friend :)',
+                        TyperAnimatedText(' A friend :)',
                           speed: const Duration(milliseconds: 50),
                           textStyle: AppText.b1,
                         ),

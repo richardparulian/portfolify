@@ -1,10 +1,9 @@
 {
-    "name": "Muhammad Hamza",
-    "email": "hamza@mhmz.dev",
+    "name": "Richard Parulian Hutapea",
+    "email": "chardparulian@gmail.com",
     "subtitles": [
-        "Flutter Developer",
-        "Technical Writer",
-        "UI/UX Designer"
+        "Software Engineer",
+        "Mobile Developer"
     ],
     "blackWhitePhotoURL": "https://drive.google.com/uc?export=view&id=1np1Or8kvpEmH5ghkFN5GJGqU8VAQRUCH",
     "coloredPhotoURL": "https://drive.google.com/uc?export=view&id=1wE4FRqC9bRrzOqS64b48--ykLK1yklTJ",
@@ -34,15 +33,15 @@
             "url": "https://mhamzadev.medium.com/"
         }
     ],
-    "aboutMeHeadline": "I'm Muhammad Hamza, a Flutter developer, Technical Writer and UI/UX Designer.",
-    "aboueMeDetails": "I'm a Final Year Computer Science student enrolled in COMSATS University, Islamabad. I have been developing mobile apps for over 2 years now. I have worked in teams for various startups and helped them in launching their prototypes and got valuable learning experience. I'm a former Google DSC lead and also CEO/Co-Founder Flutter Islamabad, Pakistan.",
+    "aboutMeHeadline": "I'm Richard Parulian Hutapea, a Flutter developer.",
+    "aboueMeDetails": "I am a Flutter Developer with over 3 years of experience in mobile application development. I specialize in building scalable, maintainable, and high-performance mobile applications. Throughout my career, I have worked on various projects ranging from internal business applications to production-ready apps used by a wide range of users. I am experienced in working both independently and in collaborative team environments, with strong expertise in API integration, state management, and clean architecture implementation to ensure efficient and well-structured codebases.",
     "technologies": [
         "Flutter",
         "Dart",
         "Python",
         "Java",
         "C++",
-        "Flask"
+        "Kotlin"
     ],
     "services": [
         {
@@ -72,13 +71,13 @@
         }
     ],
     "hireMe": {
-        "whatsapp": "923460159889"
+        "whatsapp": "6281350535566"
     },
     "projects": [
         {
-            "title": "Awesome SnackBar",
+            "title": "Milou Farm House",
             "iconUrl": "https://drive.google.com/file/d/1EohcZdd5mg5dqHQIn24k_G0dpqQTFYwV/view?usp=sharing",
-            "bannerUrl": "assets/projects/medkitB.png",
+            "bannerUrl": "assets/projects/Milou.png",
             "description": "A dart package including a wholesome experience of snackbar in your applications."
         },
         {
