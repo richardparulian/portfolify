@@ -18,7 +18,7 @@ jobs:
           channel: 'stable'
 
       - name: Build Web
-        run: flutter build web
+        run: flutter build web --base-href "/portfolify/"
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
