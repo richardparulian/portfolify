@@ -1,6 +1,5 @@
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
-import 'package:portfolify/constants.dart';
 import '../configs/app_theme.dart';
 import '../configs/app_typography.dart';
 
